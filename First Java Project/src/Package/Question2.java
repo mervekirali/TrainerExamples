@@ -11,15 +11,17 @@ package Package;
 
 
 public class Question2 {
-	public static void main(String[] args) {
-		
-		int n = 25, firstTerm = 0, secondTerm = 1;
+	//public static void main(String[] args) {
+	public void Fibo(int n)	{
+		//int n = 25, 
+		int firstTerm = 0, secondTerm = 1;
 		
 		System.out.println("Fibonacci Series till " + n + " terms:");
 		
 		for (int i = 1; i <= n; ++i) {
 			
 			System.out.print(firstTerm + ", ");
+			
 			
 			//compute the next term
 			
@@ -28,8 +30,15 @@ public class Question2 {
 		    firstTerm = secondTerm;
 		    
 		    secondTerm = nextTerm;
-
+		}
 		}
 		
 	}
-}
+//}
+
+
+
+
+//	Q2 f = new Q2();
+//
+//f.Fib(25);

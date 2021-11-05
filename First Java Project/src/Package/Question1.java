@@ -1,7 +1,7 @@
 
 
 package Package;
-import java.util.Arrays;
+
 
 
 /* Bubble sort on the following integer array: 1,0,5,6,3,2,3,7,9,8,4
@@ -41,17 +41,6 @@ public class Question1 {
 						
 	}
 	
-	public static void main(String args[]) {
-		
-		int[] data = { 1,0,5,6,3,2,3,7,9,8,4 };
-		
-		//Call method using class name
-		Question1.bubbleSort(data);
 	
-		
-		System.out.println("Sorted Array in Ascending Order: "); 
-		
-		System.out.println(Arrays.toString(data)); //The toString() method returns the String representation of the object.
-		//otherwise it returns the place where it is stored.
 	}
-}
+
