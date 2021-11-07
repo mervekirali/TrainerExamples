@@ -1,6 +1,11 @@
 package Package;
 
+//import java.util.ArrayList;
 import java.util.Arrays;
+
+
+
+
 
 public class Driver {
 	
@@ -55,11 +60,31 @@ public class Driver {
 		subStr.subString("SpaceX", 5);
 		subStr.subString("10291923", 4);
 		
+		//Question 6
+		Question6 even = new Question6();
+		
+		even.isEven(0);
+		
+		//Question 7
+	
+		Question7.Sort();
+		
+		//Question 8
+		
+		Question8.Palindrome();
+		
+		//Question 9
+		
+		Question9.Prime();		
+				
+		
+		//Question 10
+		Question10 qten = new Question10();
+		qten.Compare(8, 9);
 		
 		
-		
-		
-		
-		
+		}
+
+	
 	}	
-}
+
