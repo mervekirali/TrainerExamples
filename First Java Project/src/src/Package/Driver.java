@@ -1,11 +1,14 @@
 package Package;
 
-//import java.util.ArrayList;
+import java.io.IOException;
+
 import java.util.Arrays;
 
+import Package.Question20;
 
+import Package.Question18;
 
-
+import Package.Class1;
 
 public class Driver {
 	
@@ -24,6 +27,10 @@ public class Driver {
 		
 		System.out.println(Arrays.toString(data)); //The toString() method returns the String representation of the object.
 		//otherwise it returns the place where it is stored.
+		
+		
+		
+		
 		
 		
 		//Question 2 
@@ -81,6 +88,43 @@ public class Driver {
 		//Question 10
 		Question10 qten = new Question10();
 		qten.Compare(8, 9);
+		
+		
+		//Question 12
+		Question12 q12 = new Question12();
+		q12.evenNumber();
+		
+		
+		//Question 13
+		Question13 q13 = new Question13();
+		q13.triangle();
+		
+		
+		//Question 14
+		Question14 q14 = new Question14();
+		q14.swtch();
+		
+		
+		//Question 15
+		OperationsMainClass15 q15 = new OperationsMainClass15();
+		q15.calcMachine();
+		
+		//Question 16
+		if (args.length > 0)
+			System.out.println(args[0].length());
+		
+		//Question17
+		Question17 q17 = new Question17();
+		q17.calcInterest();
+		
+	
+		
+		
+		//Question 19
+		Question19 q19 = new Question19();
+		q19.ArrayTest();
+		
+	
 		
 		
 		}
