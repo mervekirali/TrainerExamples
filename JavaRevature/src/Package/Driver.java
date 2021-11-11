@@ -1,14 +1,9 @@
 package Package;
 
-import java.io.IOException;
+
 
 import java.util.Arrays;
 
-import Package.Question20;
-
-import Package.Question18;
-
-import Package.Class1;
 
 public class Driver {
 	
@@ -18,18 +13,11 @@ public class Driver {
 		//Question 1
 		int[] data = { 1,0,5,6,3,2,3,7,9,8,4 };
 		
-	
-		//Call method using class name
 		Question1.bubbleSort(data);
 	
-		
 		System.out.println("Sorted Array in Ascending Order: "); 
 		
-		System.out.println(Arrays.toString(data)); //The toString() method returns the String representation of the object.
-		//otherwise it returns the place where it is stored.
-		
-		
-		
+		System.out.println(Arrays.toString(data)); 
 		
 		
 		
@@ -37,8 +25,6 @@ public class Driver {
 		Question2 Fi = new Question2();
 		
 		Fi.Fibo(25);
-		
-		
 		
 		
 		
@@ -72,22 +58,28 @@ public class Driver {
 		
 		even.isEven(0);
 		
+		
 		//Question 7
-	
-		Question7.Sort();
+		Question7 q7 = new Question7();
+		q7.Compare();
+		
 		
 		//Question 8
-		
 		Question8.Palindrome();
 		
-		//Question 9
 		
+		//Question 9
 		Question9.Prime();		
 				
 		
 		//Question 10
 		Question10 qten = new Question10();
 		qten.Compare(8, 9);
+		
+		
+		//Question 11
+		Question11 q11 = new Question11();
+		q11.printNums();
 		
 		
 		//Question 12
@@ -109,21 +101,37 @@ public class Driver {
 		OperationsMainClass15 q15 = new OperationsMainClass15();
 		q15.calcMachine();
 		
+		
 		//Question 16
 		if (args.length > 0)
 			System.out.println(args[0].length());
 		
-		//Question17
+		
+		//Question 17
 		Question17 q17 = new Question17();
 		q17.calcInterest();
 		
-	
+		
+		//Question 18
+		Question18_Subclass q18 = new Question18_Subclass();
+		System.out.println(q18.hasUppercaseLetter("Merve Kirali"));
+		System.out.println(q18.hasUppercaseLetter("training"));
+		System.out.println(q18.hasUppercaseLetter("such a beautiful day"));
+		System.out.println(q18.hasUppercaseLetter("SUCH A BEAUTIFUL DAY"));
+		
+		System.out.println(q18.toUpperCase("where is earth"));
+		
+		System.out.println(q18.stringToInt("Mia"));
 		
 		
 		//Question 19
 		Question19 q19 = new Question19();
-		q19.ArrayTest();
+		q19.arrayListPrimes();
 		
+		
+		//Question 20
+		Question20 q20 = new Question20();
+		q20.loadData();
 	
 		
 		

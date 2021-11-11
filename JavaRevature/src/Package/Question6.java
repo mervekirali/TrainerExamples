@@ -10,6 +10,7 @@ public class Question6 {
 		
 		
 		
+	@SuppressWarnings("resource")
 	Scanner scan = new Scanner(System.in);
 	
 	System.out.print("Enter an integer to see if it is even or not : ");
